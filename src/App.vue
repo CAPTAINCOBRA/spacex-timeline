@@ -1,9 +1,23 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <h2>
-        <div>SpaceX Timeline</div>
+    <v-app-bar
+      app
+      color="secondary"
+      dark
+      absolute
+      prominent
+      src="https://picsum.photos/1920/1080?random"
+      fade-img-on-scroll
+      scroll-target="#scrolling-techniques-3"
+      shrink-on-scroll
+    >
+      <v-spacer />
+      <h2 class="pa-9">
+        <div style="margin-top">
+          SpaceX Timeline
+        </div>
       </h2>
+
       <v-spacer></v-spacer>
     </v-app-bar>
 
